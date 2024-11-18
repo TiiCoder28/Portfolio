@@ -8,7 +8,7 @@
         <div class="timeline-item">
                 <div class="timeline-dot"></div>
                     <div class="timeline-content vt323-regular">
-                        <h3><img src="C:\Users\GirlCode\Desktop\Portfolio\src\assets\images\email-icon.png" alt="email-icon">Email</h3>
+                        <h3><img src="@/assets/images/email-icon.png" alt="email-icon">Email</h3>
                         <p>You can email me on: <a href="mailto:tiisoh1998@gmail.com">tiisoh1998@gmail.com</a></p>
                     </div>
             </div>
@@ -16,7 +16,7 @@
             <div class="timeline-item">
                 <div class="timeline-dot"></div>
                     <div class="timeline-content vt323-regular">
-                        <h3><img src="C:\Users\GirlCode\Desktop\Portfolio\src\assets\images\icons8-phonecall-48.png" alt="phone-icon">Contact number</h3>
+                        <h3><img src="@/assets/images/email-icon.png" alt="phone-icon">Contact number</h3>
                         <p>You can call me on: <a href="tel:+27670232195">+276 670 232 195</a></p>
                     </div>
             </div>

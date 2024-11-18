@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=VT323&display=swap');
+
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.heading{
+    font-size: 6rem;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+  
+  
+}
+
+:root {
+  --bg--color: #080808;
+  --second-bg-color:#131313;
+  --text-color: #ffffff;
+  --main-color: #fab4ce;
+}
+
+
+html{
+  font-size: 70%;  
+  overflow-x: hidden;
+}
+
+body{
+  background: var(--bg--color);
+  color: var(--text-color);
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 5;
+
+}
+
+.span,
+.logo{
+  font-size: 3rem;
+  color: var(--text-color);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.logo:hover{
+  transform: scale(1.1);
+}
+
+.span{
+  text-shadow: 0 0 25px var(--main-color);
+}
+.navbar{
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a{
+  font-size: 1.8rem;
+  color: var(--text-color);
+  margin-left: 4rem;
+  font-weight: 500;
+  transition: 0.3 ease;
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
+}
+
+.navbar a:hover,
+.navbar a:active{
+  color: var(--main-color);
+  border-bottom: 3px solid var(--main-color);
+}
+
+.menu-icon{
+  font-size: 2rem;
+  color: var(--main-color);
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px){
+  .navbar {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 4rem;
+    right: 2rem;
+    background: var(--second-bg-color);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    }
+    .navbar.active {
+      display: flex;
+    }
+
+  .menu-icon {
+    display: block;
+  }
+}
+

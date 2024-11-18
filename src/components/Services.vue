@@ -22,11 +22,14 @@ const databaseTechnologies = ref(['Firebase', 'MySQL']);
                         I specialize in building engaging and interactive web interfaces using modern technologies. 
                         From crafting seamless navigation to implementing responsive designs, 
                         I ensure that your website looks great and works flawlessly on all devices.
-                    </p>
-                    <h4>Technologies</h4>
-                    <ul>
+                        
+                        <h4>Technologies</h4>
+                        <ul>
                         <li v-for="(tech, index) in frontTechnologies" :key="index">{{ tech }}</li>
                     </ul>
+                    </p>
+                    
+                    
                 </div>
             </div>
 
@@ -36,13 +39,15 @@ const databaseTechnologies = ref(['Firebase', 'MySQL']);
                     <p>
                         I develop robust and scalable server-side solutions to power your applications. 
                         By focusing on database integration, API development, and business logic implementation, I ensure your platform runs smoothly and securely to meet your unique needs.
-                    </p>
-                    <h4>Technologies</h4>
+                    
+                        <h4>Technologies</h4>
                     <p>
                         <ul>
                             <li v-for="(tech, index) in backTechnologies" :key="index">{{ tech }}</li>
                         </ul>
                     </p>
+                    </p>
+                    
                 </div>
             </div>
 
@@ -52,13 +57,14 @@ const databaseTechnologies = ref(['Firebase', 'MySQL']);
                     <p>
                         I craft visually appealing and user-friendly website layouts that prioritize aesthetics and functionality. 
                         My designs focus on creating intuitive navigation, responsive interfaces, and captivating visuals that enhance user experience while aligning with your brand identity.
-                    </p>
-                    <h4>Technologies</h4>
+                        <h4>Technologies</h4>
                     <p>
                         <ul>
                             <li v-for="(tech, index) in webDesignTech" :key="index">{{ tech }}</li>
                         </ul>
                     </p>
+                    </p>
+                    
                 </div>
             </div>
             <div class="service-box">
@@ -67,13 +73,15 @@ const databaseTechnologies = ref(['Firebase', 'MySQL']);
                     <p>
                         I offer database management services that ensure your data is organized, secure, and easily accessible. From creating efficient database structures to optimizing performance,
                          I help maintain reliable and scalable data solutions that support business operations and growth.
-                    </p>
-                    <h4>Technologies</h4>
+                         <h4>Technologies</h4>
                     <p>
                         <ul>
                             <li v-for="(tech, index) in databaseTechnologies" :key="index">{{ tech }}</li>
                         </ul>
                     </p>
+
+                        </p>
+                    
                 </div>
             </div>
         
@@ -123,12 +131,12 @@ const databaseTechnologies = ref(['Firebase', 'MySQL']);
     text-align: left;
     max-height: 200px;
     justify-content: left;
-    /* align-items: baseline; */
-    padding: 3.5rem 3.5rem;
+    align-items: baseline;
+    padding: 2.5rem 2.5rem;
 }
 
 .service-info h4{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 800;
     line-height: 1;
 }

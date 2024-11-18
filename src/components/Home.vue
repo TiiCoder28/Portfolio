@@ -21,8 +21,8 @@
                 <a href="https://github.com/TiiCoder28" target="_blank" rel="noopener noreferrer"><img src="/src/assets/images/icons8-github-50.png" alt="Github icon" /></a>
             </div>
             <div class="btn-group">
-                <a href="#" class="btn">Hire Me</a>
-                <a href="#" class="btn">Contact Me</a>
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#contact" class="btn">Contact Me</a>
             </div>
         </div>
 

@@ -5,23 +5,30 @@
     <section class="projects" id="projects">
         <h2 class="heading vt323-regular">Projects</h2>
 
-        <div class="project-container">
-            <div class="project-items-box">
-                <div class="project-info">
-                    <h4 class="vt323-regular">Weather Application</h4>
-                    <a href="https://tiicoder28.github.io/weatherApp/">Weather application</a>
-                    <p> This project was coded using HTML, CSS and JS. Here I use a lot of Asynchronous Javascript functions, I am also using an API from the OpenWeather site 
+   
+        <div class="timeline-items">
+        <div class="timeline-item">
+                    <div class="timeline-content vt323-regular">
+                        <h4>Weather Application</h4>
+                        <a href="https://tiicoder28.github.io/weatherApp/">Weather application</a>
+                        <p> This project was coded using HTML, CSS and JS. Here I use a lot of Asynchronous Javascript functions, I am also using an API from the OpenWeather site 
                         for finding the of the provided location and I am also using the geolocation API for finding the user's location
-                    </p>
-                </div>
+                        </p>
+                
+                    </div>
             </div>
-        </div>
+            </div>
     </section>
 </template>
 
 <style scoped>
 
-.project-info h4{
+.projects{
+    background-color: var(--second-bg-color);
+    padding: 100px;
+}
+
+h4{
     font-size: 5rem;
     color: #ffffff;
     margin:  0 0 10px;
@@ -29,15 +36,14 @@
 }
 
 
-.project-info a{
+a{
     font-size: 2rem;
-    text-decoration: var(--bg-color);
     color: var(--bg-color);
     transition: 0.3s ease-in-out;
 
 }
 
-.project a:hover{
+a:hover{
     box-shadow: 0 0 25px var(--main-color);
     transform: scale(1.05);
 }
@@ -70,8 +76,11 @@
     text-align: left;
     max-height: 200px;
     justify-content: left;
-    /* align-items: baseline; */
     padding: 3.5rem 3.5rem;
 }
 
+
+p{
+    font-size: 1.8rem;
+}
 </style>

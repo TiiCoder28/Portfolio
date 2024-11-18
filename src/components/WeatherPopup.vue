@@ -8,7 +8,7 @@ export default {
   methods: {
     redirectToWeatherApp() {
     
-      window.location.href = "https://github.com/TiiCoder28/weatherApp";
+      window.location.href = "https://tiicoder28.github.io/weatherApp/";
     },
     closePopup() {
       

@@ -5,6 +5,7 @@ import Home from './components/Home.vue';
 import Education from './components/Education.vue';
 import Services from './components/Services.vue';
 import Projects from './components/Projects.vue';
+import Contact from './components/Contact.vue';
 
 </script>
 
@@ -31,6 +32,10 @@ import Projects from './components/Projects.vue';
   <div>
     <WeatherPopup />
   </div>
+
+  <section>
+    <Contact />
+  </section>
 </template>
 
 <style>

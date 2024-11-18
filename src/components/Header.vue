@@ -32,5 +32,4 @@ const toggleNav = () => {
 </template>
 
 <style scoped>
-
 </style>
